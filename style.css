@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.text-secon {
+    color: #FABE4C;
+}
+.btn:focus {
+    box-shadow: none;
+}
+.btn-mine {
+    color: #FFF;
+    background: linear-gradient(#A4BC46, #85A019);
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.btn-mine:hover {
+    color: #fff;
+}
+
+/* Header CSS */
+header {
+    background-color: #FFFBF0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3C3C3C;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: inherit;
+}
+
+/* Banner CSS */
+.banner {
+    background-color: #FFFBF0;
+}
+.banner h1 {
+    font-size: 80px;
+}
+.banner p {
+    color: #3E3E3E;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.fa-shopping-cart {
+    margin-right: 5px;
+}
+
+/* Jacket Section */
+.jacket-img {
+    background-color: #F1F1F1;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.jacket-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+    margin-top: 20px;
+}
+.jacket-des {
+    color: #3E3E3E;
+}
+.price {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FABE4C;
+    margin-bottom: 0;
+}
+.man-jacket {
+    margin-top: 5rem;
+}
+.woman {
+    font-size: 48px;
+}
+
+/* Shopping Section */
+.shopping-text {
+    margin-left: 20px;
+}
+.left-text h3 {
+    font-size: 24px;
+    color: #363958;
+    font-weight: 700;
+}
+.left-text p {
+    color: #3E3E3E;
+    width: 276px;
+}
+
+/* Media Quary CSS */
+@media (max-width: 991px) {
+    .flex-custom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-text p {
+        width: inherit;
+    }
+}
